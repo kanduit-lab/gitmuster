@@ -1,0 +1,38 @@
+{
+  "name": "gitmuster",
+  "version": "1.0.0",
+  "description": "Muster every Git repository in the current folder, then fetch and fast-forward-pull the ones you pick",
+  "type": "module",
+  "bin": {
+    "gitmuster": "./cli.mjs"
+  },
+  "files": [
+    "cli.mjs",
+    "picker.mjs",
+    "repositories.mjs"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test \"*.test.mjs\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanduit-lab/gitmuster.git"
+  },
+  "homepage": "https://github.com/kanduit-lab/gitmuster#readme",
+  "bugs": {
+    "url": "https://github.com/kanduit-lab/gitmuster/issues"
+  },
+  "keywords": [
+    "git",
+    "multi-repo",
+    "fetch",
+    "pull",
+    "tui",
+    "cli"
+  ],
+  "license": "MIT",
+  "private": true
+}
